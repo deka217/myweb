@@ -1,0 +1,1 @@
+<?php header('location: HTML5/index.html', true, 301); ?>
