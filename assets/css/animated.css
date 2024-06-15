@@ -3156,3 +3156,13 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-name: slideOutUp;
           animation-name: slideOutUp;
 }
+
+.zoom-in {
+  transition: transform 0.3s;
+  /* Add smooth transition effect */
+}
+
+.zoom-in:hover {
+  transform: scale(1.5);
+  /* Zoom in to 1.1 times the original size on hover */
+}
