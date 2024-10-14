@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1f1e23;
+    overflow: scroll;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #2d2c36;
+    border-radius: 20px;
+    height: auto;
+}
+
+.emoticons {
+    display: flex;
+    gap: 10px;
+}
+
+.kumis {
+    display: flex;
+    gap: 10px;
+}
+
+/* .emoticons {
+    display: flex;
+    gap: 10px;
+}
+
+.emoticons img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+.emoticon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+    border-radius: 20px;
+}
+
+.emoticon:hover {
+    /* border: 2px solid #000; */
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.kumis {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+    border-radius: 20px;
+}
+
+.kumis:hover {
+    /* border: 2px solid #000; */
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+#imageCanvas {
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #363541;
+
+}
+
+.cardd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 76px;
+    background-color: #363541;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.w-50 {
+    width: 50%;
+}
